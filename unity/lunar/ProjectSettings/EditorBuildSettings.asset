@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes: []
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: aeb61a6b97ee2f24c875a03f4aade9ef,
+      type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7493c234df363b84bad94538ab46f708,
       type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
       guid: 3606fed0bffd7c043a8160db12c4212b, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 26560cf62b2335a4b996252e11c8e682, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1fb865734ae231949a9bc9d94102b448,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5046ac08a86e2e24da1473a5c020ba65,
+      type: 2}

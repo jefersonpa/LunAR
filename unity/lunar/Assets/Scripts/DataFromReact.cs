@@ -6,7 +6,6 @@ public class DataFromReact : MonoBehaviour
     public new string name;
     public string age;
     private DataFromReact instance;
-    public TMP_Text text;
 
     private void Awake()
     {
@@ -14,8 +13,6 @@ public class DataFromReact : MonoBehaviour
         {
             instance = this;
         }
-        // Change the text on the text component.
-        text.text = "start.";
     }
 
     public class JsonObject
@@ -30,7 +27,5 @@ public class DataFromReact : MonoBehaviour
         JsonObject obj = JsonUtility.FromJson<JsonObject>(json);
         name = obj.name;
         age = obj.age;
-
-        text.text = obj.name;
     }
 }
