@@ -1,12 +1,13 @@
 
 <p align="center">
-  <a href="https://nextjs.org">
-    <!--<picture>
-      <source media="(prefers-color-scheme: dark)" srcset="logourldark">
-      <img src="logourl" height="128">
-    </picture>-->
-    <h1 align="center">LunAR</h1>
-  </a>
+  <!--<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="logourldark">
+    <img src="logourl" height="128">
+  </picture>-->
+  <h1 align="center">LunAR</h1>
+  <p align="center">
+    Lunar is an innovative software application that utilizes AR technology to provide a seamless and immersive experience for viewing IFC models.
+  </p>
 </p>
 
 <p align="center">
@@ -20,7 +21,20 @@
   <a target="_blank" href="https://www.apple.com/ios/ios-16/"><img alt="IOS" src="https://img.shields.io/badge/iOS-000?style=for-the-badge&logo=ios&logoColor=white"></a>
 </p>
 
-### Project structure (gitree)
+<h3>Getting Started</h3> 
+<p>
+  <b>Installation:</b> This app uses <a target="_blank" href="https://github.com/azesmway/react-native-unity">react-native-unity</a> to link between the react-native project and the unity project, so you will probably need to configure the unity environment. The easiest way to do this is by following the steps in <a target="_blank" href="https://medium.com/@salaheddine.ly/part-i-integrating-unity-games-to-react-native-apps-for-beginners-for-android-4c48031e2829">this tutorial</a>.
+  <br>
+  <b>Launch:</b> Go to the lunar folder and run the command:
+  
+```
+$ npm install
+$ npm start
+```
+
+</p>
+<h3>Project structure</h3> <!-- (gitree) --> 
+
     ├── LICENSE
     ├── lunar                        # react-native project
     │   ├── android                  # Android build
